@@ -14,7 +14,7 @@ Each package is located in the `packages` directory and each has it's own README
 ## Contributing
 
 This is a fork of the main repo with additional PRs included.
-The only modified/published packages so far are [draft-js-import-html-cbx] & [draft-js-import-element-cbx]
+The only modified/published packages so far are [draft-js-import-html-cbx](https://www.npmjs.com/package/draft-js-import-html-cbx) & [draft-js-import-element-cbx](https://www.npmjs.com/package/draft-js-import-element-cbx)
 
 ## License
 
