@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-utils-monorepo",
+  "name": "draft-js-utils-monorepo-cbx",
   "private": true,
   "workspaces": [
     "packages/*"

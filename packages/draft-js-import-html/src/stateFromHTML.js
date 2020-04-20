@@ -1,15 +1,15 @@
 // @flow
 
-import {stateFromElement} from 'draft-js-import-element';
+import { stateFromElement } from 'draft-js-import-element-cbx';
 import parseHTML from './parseHTML';
 
-import type {ContentState} from 'draft-js';
-import type {ElementStyles, CustomBlockFn, CustomInlineFn} from 'draft-js-import-element';
+import type { ContentState } from 'draft-js';
+import type { ElementStyles, CustomBlockFn, CustomInlineFn } from 'draft-js-import-element-cbx';
 
 type Options = {
   parser?: (html: string) => Element;
   elementStyles?: ElementStyles;
-  blockTypes?: {[key: string]: string};
+  blockTypes?: { [key: string]: string };
   customBlockFn?: CustomBlockFn;
   customInlineFn?: CustomInlineFn;
 };
@@ -20,7 +20,7 @@ export default function stateFromHTML(
   html: string,
   options?: Options,
 ): ContentState {
-  let {parser, ...otherOptions} = options || defaultOptions;
+  let { parser, ...otherOptions } = options || defaultOptions;
   if (parser == null) {
     parser = parseHTML;
   }

@@ -6,7 +6,7 @@ It was extracted from [React-RTE](https://react-rte.org) and placed into a separ
 
 ## Installation
 
-    npm install --save draft-js-import-html
+    npm install draft-js-import-html-cbx
 
 ## How to Use
 

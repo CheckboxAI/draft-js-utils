@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-utils",
+  "name": "draft-js-utils-cbx",
   "version": "1.4.0",
   "description": "Collection of utilities for DraftJS",
   "main": "lib/main.js",
